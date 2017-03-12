@@ -1,6 +1,57 @@
 // $background-primary: grey
 $h1-font: Quicksand
+$image-border: #000 solid 2px
+$blue: #0e225f
+$background-color: rgba(49, 109, 107, 0.56)
+$meg-bg: rgba(213, 67, 173, 0.74)
+$balloon: url("../images/bg1.jpeg")
+$border: 1px solid #000
+
 
 body
- // background-color: $background-primary
  font-family: $h1-font
+
+img
+ border: $image-border
+ padding: 3px
+ margin: 5px
+
+.rotateimg90
+ transform: rotate(90deg)
+
+.blue
+ color: $blue
+ float: left
+ height: 50px
+ padding: 15px 15px
+ font-size: 18px
+ line-height: 20px
+
+.balloon
+ background-image: $balloon
+
+.bg
+ background-color: $background-color
+
+.meg-bg
+ background-color: $meg-bg
+
+.navbar-inverse
+ background-color: rgba(34, 34, 34, 0.27)
+ border-color: rgba(8, 8, 8, 0)
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+ color: #fff
+ background-color: rgba(8, 8, 8, 0.31)
+
+.navbar-inverse .navbar-nav>li>a
+ color: #4c1111
+
+.navbar-inverse .navbar-brand
+ color: #260746
+
+.jumbotron
+ background-image: $balloon
+
+.border
+ border: $border
