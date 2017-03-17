@@ -46,4 +46,8 @@ img {
 .border {
   border: 1px solid #000; }
 
+.header {
+  color: #000;
+  font-size: 35px; }
+
 /*# sourceMappingURL=style.css.map */
